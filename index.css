@@ -97,8 +97,7 @@
       margin: 2% ;
       padding: 10px;
       font-family:'Roboto',sans-serif;
-    font-weight:300;
-      /* float: left; */
+      font-weight:300;
     }
   
 
@@ -106,7 +105,7 @@
     {
     background-color:white;
     width: 92%;
-    margin: auto auto;
+    margin: auto;
     margin-top: 3%;
     font-family:'Roboto',sans-serif;
     font-size: larger;
