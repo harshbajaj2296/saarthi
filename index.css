@@ -7,6 +7,8 @@
     background-image: url("./images/data_trends.jpg");
     background-repeat: no-repeat;
     background-position: top;
+    /* background-image:url("./images/f.jpg") ;
+    background-size: 100%; */
     
   }
   .header
@@ -19,7 +21,7 @@
   {
     display:inline-block;
     padding:1%;
-    margin:0 0.3em 0.3em 0;
+    margin:2% 2%;
     border-radius:2em;
     box-sizing: border-box;
     text-decoration:none;
@@ -53,7 +55,7 @@
       background-color: white;
       text-align: center;
       padding: 5%;
-      position:relative;
+      position: absolute;
     }
     .close
     {
@@ -92,4 +94,27 @@
       float: left;
       
     }
-    
+    .table
+    {
+      background-color: white;
+      width: 57%;
+    margin: auto auto;
+    font-family:'Roboto',sans-serif;
+    font-size: larger;
+    box-sizing: border-box;
+    /* font-weight:500; */
+    background-position: center;
+    /* color: white; */
+   /* display: none; */
+    }
+    th
+    {
+      background-color:#e44a23;
+      color: white;
+      /* position: fixed; */
+    }
+    #X
+    {
+/* background-color: red; */
+      color: red;
+    }
