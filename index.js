@@ -14,8 +14,11 @@ bg1.style.display="none";
 function abc ()
 {
 bg1.style.display="none";
-// document.getElementsByClassName("table")[0].style.display="";
 }
+function deleteRow(r) {
+    var i = r.parentNode.parentNode.rowIndex;
+    document.getElementById("customers").deleteRow(i);
+  }
 function myFunction() 
 {
     var table = document.getElementById("customers");
@@ -44,16 +47,7 @@ function myFunction()
     cell4.innerHTML = document.getElementById("Department").value;
     cell5.innerHTML = document.getElementById("email").value;
     cell6.innerHTML = document.getElementById("myDate").value;
-    cell7.innerHTML = '<button id="X">X</button>';
+    cell7.innerHTML = '<button id="X" onclick="deleteRow(this)">X</button>';
       abc();
     }
   }
-//   function deleteRow(r) {
-//     var i = r.parentNode.parentNode.rowIndex;
-//     document.getElementById("customers").deleteRow(i);
-//   }
-  document.getElementById("row.id").addEventListener("click",function()
-  {
-
-  })
-//   onclick="document.getElementById("row.id").deleteRow(row.id)"
