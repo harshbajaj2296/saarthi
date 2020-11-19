@@ -28,7 +28,6 @@ function myFunction()
     var d=document.getElementById("Department").value;
     var e=document.getElementById("email").value;
     var f=document.getElementById("myDate").value;
-    // console.log(typeof(f));
     if(a!=""&&b!=""&&c!=""&&d!=""&&e!=""&&f!="")
     {
     var row = table.insertRow(-1);
