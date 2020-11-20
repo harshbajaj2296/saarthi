@@ -27,7 +27,7 @@ function deleteRow(r) {
   }
 function insert_form_data() 
 {
-    var table = document.getElementById("customers");
+    var table = document.getElementById("customers").getElementsByTagName('tbody')[0];;
     var a=document.getElementById("fname").value;
     var b=document.getElementById("lname").value;
     var c=document.getElementById("ename").value;
