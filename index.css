@@ -46,12 +46,13 @@
     {
       margin: auto;
       width:500px;
-      background-color: white;
-      /* background: linear-gradient(to left, rgb(250, 155, 129), #f5d18a);  */
+      background-color: #eeeeee;
+      background-image: linear-gradient(315deg, #eeeeee 0%, #ec4534 74%);
       text-align: center;
       padding: 5%;
       position: relative;
       float: left;
+      color: white;
       
     }
     #myDate
@@ -64,6 +65,7 @@
     padding-top: 10px;
     padding-left: 32px;
     padding-bottom: 10px;
+    color: black;
 
     }
     .close

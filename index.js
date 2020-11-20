@@ -49,4 +49,4 @@ function myFunction()
     cell7.innerHTML = '<button id="X" onclick="deleteRow(this)">X</button>';
       abc();
     }
-  }
+}
