@@ -19,6 +19,9 @@ function deleteRow(r) {
     var i = r.parentNode.parentNode.rowIndex;
     document.getElementById("customers").deleteRow(i);
   }
+  
+  var table = document.getElementById("customers");
+table.insertRow(-1);
 function myFunction() 
 {
     var table = document.getElementById("customers");

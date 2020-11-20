@@ -55,10 +55,13 @@
       color: white;
       
     }
+    input
+    {
+      color: black;
+    }
     #myDate
     {
       padding-left: 38px;
-      color: black;
     }
     #Department
     {
