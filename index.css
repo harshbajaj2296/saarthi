@@ -110,7 +110,7 @@
     .table
     {
     background-color:white;
-    width: 96%;
+    width: 98%;
     margin: auto;
     margin-top: 3%;
     font-family:'Roboto',sans-serif;
@@ -128,14 +128,6 @@
     {
       color: red;
     }
-    /* table thead, table tbody tr {
-      display: table;
-      width: 100%;
-      table-layout: fixed;
-    } */
-    /* table tbody {
-      display: block;
-      max-height: 300px;
-      overflow-y: scroll;
-    }
-    */
+    
+
+    
