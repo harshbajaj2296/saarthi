@@ -11,18 +11,21 @@ document.getElementsByClassName("close")[0].addEventListener("click",function()
 {
 bg1.style.display="none";
 })
-function abc ()
+function Hide_form ()
 {
 bg1.style.display="none";
+document.getElementById("fname").value=''; 
+document.getElementById("lname").value=''; 
+document.getElementById("ename").value='';
+document.getElementById("Department").value='';
+document.getElementById("email").value='';
+document.getElementById("myDate").value='';
 }
 function deleteRow(r) {
     var i = r.parentNode.parentNode.rowIndex;
     document.getElementById("customers").deleteRow(i);
   }
-  
-  var table = document.getElementById("customers");
-table.insertRow(-1);
-function myFunction() 
+function insert_form_data() 
 {
     var table = document.getElementById("customers");
     var a=document.getElementById("fname").value;
@@ -50,6 +53,6 @@ function myFunction()
     cell5.innerHTML = document.getElementById("email").value;
     cell6.innerHTML = document.getElementById("myDate").value;
     cell7.innerHTML = '<button id="X" onclick="deleteRow(this)">X</button>';
-      abc();
+      Hide_form();
     }
 }
